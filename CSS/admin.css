@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap');
+* {
+    font-family: reem kufi;
+    margin: 0;
+    padding: 0;
+}
+
+#admin-landing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.admin-logo-bg {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    background-color: grey;
+}
+.admin-logo-bg > img {
+    padding-bottom: 5%;
+}
+
+.admin-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    margin-left: 5%;
+}
+
+#admin-login-form {
+    display: flex;
+    flex-direction: column;
+}
+#admin-login-btn {
+    width: 45%;
+}
+
+/* post-login */
+#navbar-logo {
+    max-height: 50px
+}
+
+.nav-item {
+    margin: 0 2vw 0 2vw;
+}
+
+/* dashboard */
