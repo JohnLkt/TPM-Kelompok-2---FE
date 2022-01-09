@@ -48,3 +48,14 @@
 }
 
 /* dashboard */
+#dashboard-container {
+    width: 80%;
+    background-color: grey;
+    padding: 2%;
+}
+#dashboard-tools {
+    display: flex;
+}
+.sort-button {
+    width:10%;
+}

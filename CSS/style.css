@@ -35,11 +35,11 @@
 }
 .about-video {
     background-color:grey;
-    width: 45%;
+    width: 55%;
     height: 50%;
     align-self: center;
 }
 
-@media screen {
-    
+#why-participate {
+    background-color:grey;
 }
