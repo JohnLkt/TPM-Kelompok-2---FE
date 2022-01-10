@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Reem Kufi', sans-serif;
 }
 
 .registerPage {
     display: flex;
     position: relative;
+}
+
+.logo {
+    filter: invert(100%);
 }
 
 .headRegisterPage {
@@ -75,6 +81,13 @@ button {
 }
 
 .birthdate {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.idCard {
     display: flex;
     justify-content: space-between;
 }

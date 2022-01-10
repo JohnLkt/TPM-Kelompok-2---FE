@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Reem Kufi', sans-serif;
 }
 
 .loginPage {
     display: flex;
     position: relative;
+}
+
+.logo {
+    filter: invert(100%);
 }
 
 .headLoginPage {
@@ -51,7 +57,20 @@ label {
 
 }
 
-
 button {
     width: 200px;
+}
+
+.btn-primary {
+    background-color: rgb(145, 82, 254);
+    border-color: rgb(145, 82, 254);
+}
+
+.btn-primary :visited {
+    background-color: rgb(145, 82, 254);
+    border-color: rgb(145, 82, 254);
+}
+
+.form-control {
+    background-color: rgb(196, 196, 196);
 }
