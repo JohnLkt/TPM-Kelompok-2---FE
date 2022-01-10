@@ -51,3 +51,36 @@ function showBusiness() {
     document.getElementById("Technology").style.color = 'black';
     document.getElementById("Design").style.color = 'black';
 }
+
+
+
+// contactform
+const form = document.getElementById("contact-us-form")
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    validatelogin();
+});
+
+function validatelogin() {
+  const name = document.getElementById("contactname").value;
+  const email = document.getElementById("contactemail").value;
+  const subject = document.getElementById("contactsubject").value;
+  const message = document.getElementById("contactmessage").value;
+  if (name== null ||name== "") {
+    alert("Please enter your name.");
+    return false;
+}
+  if (email== null ||email== "") {
+      alert("Please enter your email.");
+      return false;
+  }
+  if (subject == null || subject == "") {
+      alert("Please enter a subject.");
+      return false;
+  }
+  if (message== null ||message== "") {
+    alert("Please enter your message.");
+    return false;
+}
+alert('Message sent!');
+}
