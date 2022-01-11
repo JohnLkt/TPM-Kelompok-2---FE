@@ -4,7 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
+body {
+    background-color: rgb(10, 14, 47);
+}
+
 #user-dashboard {
     display: flex;
     justify-content: center;

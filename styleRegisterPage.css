@@ -26,11 +26,16 @@
 }
 
 .leftRegisterPage {
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(10, 14, 47);
     position: fixed;
     height: 100%;
     width: 550px;
     padding: 50px;
+}
+
+.leftRegisterPage > h2 {
+    color: white;
+    padding-top: 30px;
 }
 
 .rightRegisterPage {
@@ -42,6 +47,7 @@
 .registerForm h3 {
     padding-top: 80px;
     padding-bottom: 25px;
+    font-weight: bold;
 }
 
 form > div {
@@ -90,4 +96,22 @@ button {
 .idCard {
     display: flex;
     justify-content: space-between;
+}
+
+.form-control {
+    background-color: rgb(196, 196, 196);
+}
+
+.btn-primary {
+    background-color: rgb(196, 196, 196);
+    border-color: rgb(196, 196, 196);
+}
+
+.file {
+    background-image: url(assets/Add\ File\ Button.svg);
+    background-size: cover;
+    width: 149px;
+    height: 64px;
+    overflow: hidden;
+
 }
