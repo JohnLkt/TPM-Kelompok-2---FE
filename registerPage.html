@@ -37,14 +37,27 @@
               <div class="mb-3">
                 <label for="teamName" class="form-label">Team Name</label>
                 <input type="text" class="form-control rounded-pill" id="teamName" >
+                <ul class="requirements" id="teamname-requirements">
+                  <li>Harus ada</li>
+                </ul>
               </div>
               <div class="mb-3">
                 <label for="passwordTeam" class="form-label">Password</label>
                 <input type="password" class="form-control rounded-pill" id="passwordTeam" placeholder="Min. 8 characters containing an uppercase and lowercase letter, a number, and a symbol.">
+                <ul class="requirements">
+                  <li>panjang minimal 8 karakter</li>
+                  <li>harus ada huruf besar</li>
+                  <li>harus ada huruf kecil</li>
+                  <li>harus ada huruf angka</li>
+                  <li>harus ada huruf harus ada simbol</li>
+                </ul>
               </div>
               <div class="mb-3">
                 <label for="confirmPasswordTeam" class="form-label">Confirm Password</label>
                 <input type="password" class="form-control rounded-pill" id="confirmPasswordTeam">
+                <ul class="requirements">
+                  <li>Harus sama dengan password</li>
+                </ul>
               </div>
               <div class="checkboxStatus">
                 <div class="form-check">
@@ -60,6 +73,9 @@
                   </label>
                 </div>
               </div>
+              <ul class="requirements">
+                <li>Harus memilih salah satu</li>
+              </ul>
             </div>
 
             <div class="leaderInformation">
@@ -67,26 +83,46 @@
               <div class="mb-3">
                 <label for="fullName" class="form-label">Full Name</label>
                 <input type="text" class="form-control rounded-pill" id="fullName" >
+                <ul class="requirements">
+                  <li>Harus diisi</li>
+                </ul>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control rounded-pill" id="email" >
+                <ul class="requirements">
+                  <li>Harus diisi</li>
+                  <li>format email salah</li>
+                </ul>
               </div>
               <div class="mb-3">
                 <label for="whatsappNumber" class="form-label">Whatsapp Number</label>
                 <input type="text" class="form-control rounded-pill" id="whatsappNumber" placeholder="+62" >
+                <ul class="requirements">
+                  <li>Harus diisi</li>
+                  <li>minimal 9 angka</li>
+                </ul>
               </div>
               <div class="mb-3">
                 <label for="lineID" class="form-label">LINE ID</label>
                 <input type="text" class="form-control rounded-pill" id="lineID" >
+                <ul class="requirements">
+                  <li>Harus diisi</li>
+                </ul>
               </div>
               <div class="mb-3">
                 <label for="githubGitlabID" class="form-label">Github/Gitlab ID</label>
                 <input type="text" class="form-control rounded-pill" id="githubGitlabID" >
+                <ul class="requirements">
+                  <li>Harus diisi</li>
+                </ul>
               </div>
               <div class="mb-3">
                 <label for="birthPlace" class="form-label">Birth Place</label>
                 <input type="text" class="form-control rounded-pill" id="birthPlace" >
+                <ul class="requirements">
+                  <li>Harus diisi</li>
+                </ul>
               </div>
               <div class="mb-3">
                 <label for="birthDate" class="label">Birth Date</label>
@@ -94,28 +130,40 @@
                   <div class="mb-3">
                     <label for="dayBirthDate" class="form-label" style="font-size: 10pt;">Day</label>
                     <input type="text" class="form-control" id="dayBirthDate" placeholder="DD">
+                    <ul class="requirements">
+                      <li>Harus diisi</li>
+                      <li>2 digit</li>
+                    </ul>
                   </div>
                   <div class="mb-3">
                     <label for="monthBirthDate" class="form-label" style="font-size: 10pt;">Month</label>
                     <input type="text" class="form-control" id="monthBirthDate" placeholder="MM">
+                    <ul class="requirements">
+                      <li>Harus diisi</li>
+                      <li>2 digit</li>
+                    </ul>
                   </div>
                   <div class="mb-3">
                     <label for="yearBirthDate" class="form-label"style="font-size: 10pt;" >Year</label>
                     <input type="text" class="form-control" id="yearBirthDate" placeholder="YYYY">
+                    <ul class="requirements">
+                      <li>Harus diisi</li>
+                      <li>4 digit</li>
+                    </ul>
                   </div>
                 </div>
                 <div class="mb-3">
                     <label for="CV" class="form-label">Curriculum Vitae (CV)</label>
-                    <input type="file" class="form-control file" id="CV" placeholder="Add file">
+                    <input type="file" class="form-control file" id="CV" accept="application/pdf, image/png, image/jpg, image/jpeg">
                   </div>
                   <div class="idCard">
                     <div class="mb-3">
                       <label for="flazzCard" class="form-label">Flazz Card (Binusian)</label>
-                      <input type="file" class="form-control file" id="flazzCard" >
+                      <input type="file" class="form-control file" id="flazzCard" accept="application/pdf, image/png, image/jpg, image/jpeg">
                     </div>
                     <div class="mb-3">
                       <label for="IDCard" class="form-label">ID Card (Non-Binusian)</label>
-                      <input type="file" class="form-control file" id="IDCard" >
+                      <input type="file" class="form-control file" id="IDCard" accept="application/pdf, image/png, image/jpg, image/jpeg">
                     </div>
                   </div>
               </div>

@@ -107,11 +107,11 @@ button {
     border-color: rgb(196, 196, 196);
 }
 
-.file {
-    background-image: url(assets/Add\ File\ Button.svg);
-    background-size: cover;
-    width: 149px;
-    height: 64px;
-    overflow: hidden;
 
+
+.requirements {
+    display: none;
+}
+.wrong {
+    display: block;
 }
