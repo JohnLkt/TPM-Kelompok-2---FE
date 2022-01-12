@@ -42,7 +42,11 @@
 
     <section id="payment" >
         <h2>Registration Period</h2>
-        <h1>Opens in 12 days, 5 hours, 4 minutes</h1>
+        <div class="none-and-gradient">
+          <h1>Opens in</h1>
+          <h1 class="gradient-font">12 days, 5 hours, 4 minutes</h1>
+        </div>
+        
         
         <div class="box-container">
           <div class="payment-container">
@@ -52,34 +56,50 @@
             <div class="box-container">
               <div class="earlyBird-container">
                 <h4>7 days 0 hours left</h4>
-                <p>Rp 720.000,-</p>
+                <div class="price">
+                  <p class="rp">Rp</p>
+                  <p class="nominal">720.000,-</p>
+                </div>
               </div>
             </div>
             
             <div class="box-container">
               <div class="normalPrice-container">
                 <div class="binusian-price">
-                    <h4>Binusian</h4>
-                    <p>Rp 960.000,-</p>
+                    <h4 class="gradient-font">Binusian</h4>
+                    <div class="gradient-font">
+                      <div class="price">
+                        <p class="rp">Rp</p>
+                        <p class="nominal">960.000,-</p>
+                      </div>
+                      
+                    </div>
                 </div>
                 <div class="nonBinusian-price">
                     <h4>Non-Binusian</h4>
-                    <p>Rp 1.200.000,-</p>
+                    <div class="price">
+                      <p class="rp">Rp</p>
+                      <p class="nominal">1.200.000,-</p>
+                    </div>
                 </div>
               </div>
             </div>
-            
-            <div class="rekeningTransfer">
+
+            <div class="box-container">
+              <div class="rekeningTransfer">
                 <div class="rekeningTujuan">
                    <p>via Bank Transfer to</p>
-                    <p>XXX-XXX-XXXX</p>
+                    <p class="norek">XXX-XXX-XXXX</p>
                     <p>BCA</p>
                     <p>a.n. Andi Budi</p> 
                 </div>
                 <div class="qrCode">
-                    <div>qr</div>
+                    <img src="./Assets/Barcode.svg" alt="barcode">
                 </div>
+              </div>
             </div>
+            
+            
           </div>
         </div>
         
