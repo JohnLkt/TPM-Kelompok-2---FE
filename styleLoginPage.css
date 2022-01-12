@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'Reem Kufi', sans-serif;
 }
-
+#adminlogologin {
+    filter: invert(100%);
+  }
 .loginPage {
     display: flex;
     position: relative;
@@ -66,7 +68,17 @@ label {
 button {
     width: 200px;
 }
-
+.btn {
+    background-color: #9152FE;
+    color: #fff;
+    border: none;
+}
+.btn:hover {
+    background-color: #9152FE;
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset;
+}
 .btn-primary {
     background-color: rgb(145, 82, 254);
     border-color: rgb(145, 82, 254);

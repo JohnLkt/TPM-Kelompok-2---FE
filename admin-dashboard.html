@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="Assets/LogoTSfull.svg" id="navbar-logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,12 +24,15 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Participants</a>
               </li>
-              <button class="btn btn-outline-success" type="submit">Logout</button>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Logout</a>
+              </li>
             </ul>
           </div>
           </div>
     </nav>
     <section id="admin-dashboard">
+      <div class=middle-admin>
         <h2>Payment Confirmation</h2>
         <div id="dashboard-container">
             <div class="dashboard-tools">
@@ -63,29 +66,31 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row"><i class="fas fa-check-circle"></i></th>
+                  <th scope="row"><i class="fas fa-check-circle dash-icon"></i></th>
                   <td>Team Name 1</td>
                   <td>Rp 7200.000,-</td>
-                  <td><button class="admin-view">View</button></td>
-                  <td><button class="admin-verify">Verify</button></td>
+                  <td><button class="btn-admin btn rounded-pill">View</button></td>
+                  <td><button class="btn-admin btn rounded-pill">Verify</button></td>
                 </tr>
                 <tr>
-                  <th scope="row"><i class="fas fa-circle"></i></th>
+                  <th scope="row"><i class="fas fa-clock dash-icon"></i></th>
                   <td>Team Name 1</td>
                   <td>Rp 7200.000,-</td>
-                  <td><button class="admin-view">View</button></td>
-                  <td><button class="admin-verify">Verify</button></td>
+                  <td><button class="btn-admin btn rounded-pill">View</button></td>
+                  <td><button class="btn-admin btn rounded-pill">Verify</button></td>
                 </tr>
                 <tr>
-                  <th scope="row"><i class="fas fa-circle"></i></th>
+                  <th scope="row"><i class="far fa-circle dash-icon"></i></th>
                   <td>Team Name 1</td>
                   <td>Rp 7200.000,-</td>
-                  <td><button class="admin-view">View</button></td>
-                  <td><button class="admin-verify">Verify</button></td>
+                  <td><button class="btn-admin btn rounded-pill">View</button></td>
+                  <td><button class="btn-admin btn rounded-pill">Verify</button></td>
                 </tr>
               </tbody>
             </table>
         </div>
+      </div>
+        
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

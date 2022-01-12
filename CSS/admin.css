@@ -11,17 +11,30 @@
     flex-wrap: wrap;
     min-height: 100vh;
 }
-
+#adminlogologin {
+  max-height: 50px;
+  filter: invert(100%);
+}
 .admin-logo-bg {
     display: flex;
     flex-direction: column;
     padding: 2%;
-    background-color: grey;
+    background-color: #0a0e2f;
 }
 .admin-logo-bg > img {
     padding-bottom: 5%;
 }
-
+.btn {
+  background-color: #9152FE;
+  color: #fff;
+  border: none;
+}
+.btn:hover {
+  background-color: #9152FE;
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset;
+}
 .admin-login {
     display: flex;
     flex-direction: column;
@@ -40,18 +53,31 @@
 
 /* post-login */
 #navbar-logo {
-    max-height: 50px
+    max-height: 50px;
+    filter: invert(100%);
 }
-
+h2 {
+  color: #fff;
+}
 .nav-item {
     margin: 0 2vw 0 2vw;
 }
-
+body {
+  background-color: #0a0e2f;
+}
 /* dashboard */
+#admin-dashboard {
+  display: flex;
+  justify-content: center;
+}
+.middle-admin {
+  width: 80%;
+}
 #dashboard-container {
-    width: 80%;
-    background-color: grey;
+    width: 100%;
+    background-color: #fff;
     padding: 2%;
+    border-radius: 25px;
 }
 #dashboard-tools {
     display: flex;
@@ -105,11 +131,11 @@
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #9152FE;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #9152FE;
   }
   
   input:checked + .slider:before {
@@ -130,3 +156,25 @@
       margin-left: 10px;
   }
   /* inside table */
+table {
+  margin-top: 2%;
+  text-align: center;
+}
+tr {
+  vertical-align: middle;
+}
+thead {
+  background-color: #9152FE;
+}
+
+
+.dash-icon {
+  color: #9152FE;
+  font-size: 32px;
+}
+
+.btn-admin {
+  background-color: #fff;
+  color: #9152FE;
+  border: 2px solid #9152FE; 
+}
