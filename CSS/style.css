@@ -403,13 +403,12 @@ Other events */
     border-radius: 50px;
 }
 #virtualconference {
-    background-image: url(/Assets/OtherEvents/Virtual\ Conference\ -\ Shaped.svg);
+    background-image: url(/Assets/OtherEvents/Virtual\ Conference.svg);
     background-position: center center;
-    background-size: cover;
 }
 #developerworkshop {
-    background-image: url(/Assets/OtherEvents/Developer\ Workshop\ -\ Shaped.svg);
-    background-size: cover;
+    background-image: url(/Assets/OtherEvents/Developer\ Workshop.svg);
+    background-position: center center;
 }
 /* sponsors */
 #sponsors {
@@ -472,14 +471,14 @@ Other events */
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 20s linear infinite;
+    animation: marquee 30s linear infinite;
   }
   .track2 {
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 20s linear infinite;
-    animation-delay: -10s;
+    animation: marquee 30s linear infinite;
+    animation-delay: -15s;
   }
   .content {
       display: flex;
