@@ -169,9 +169,10 @@ h4 {
 }
 
 .upload-file-button {
-    margin-left: 26%;
+    margin-left: 20%;
     margin-top: 20px;
     margin-bottom: 100px;
+    align-self: flex-start;
 }
 
 /* UPLOAD FILE BUTTON STYLE */
@@ -210,3 +211,36 @@ h4 {
   .fa-upload {
     padding: 5px;
   }
+
+  /* pillbox */
+.paymentVerification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pill-container {
+    width: 80%;
+    display: flex;
+    height: 150px;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 75px;
+    background-image: linear-gradient(to right, #FB4FFF, #9152FE);
+}
+.payment-status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-icon {
+    font-size: 50px;
+}
+.payment-text {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0;
+}

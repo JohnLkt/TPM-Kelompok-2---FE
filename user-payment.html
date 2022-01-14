@@ -110,8 +110,21 @@
         <div class="paymentVerification">
             <p>Waiting for verification...</p>
 
-            <div class="box-container">
-              <img src="./Assets/Payment Indicator (Shape).svg" alt="payment-indicator">
+            <div class="pill-container">
+              <div class="payment-status-container payment-icon">
+                <img src="Assets/Payment Page/Status (Finished - Checklist).svg">
+                <p class="payment-text">Upload Proof of Payment</p>
+              </div>
+              <div class="payment-status-container payment-icon">
+                <img src="Assets/Payment Page/Status (Pending - Clock).svg">
+                <p class="payment-text">Verification</p>
+              </div>
+              <div class="payment-status-container payment-icon">
+                <img src="Assets/Payment Page/Status (Pending - Dotted Circle).svg">
+                <p class="payment-text">You're ready to go!</p>
+              </div>
+    
+              <!-- <img src="./Assets/Payment Indicator (Shape).svg" alt="payment-indicator"> -->
             </div>
             <div class="upload-file-button">
               <input type="file" class="form-control file" id="payment-proof" placeholder="Add file">
