@@ -168,6 +168,12 @@ h4 {
     font-size: 24px;
 }
 
+.upload-file-button {
+    margin-left: 26%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
 /* UPLOAD FILE BUTTON STYLE */
 
 [type="file"] {
@@ -199,12 +205,6 @@ h4 {
   [type="file"] + label:hover {
       background-color: rgb(145, 82, 254);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset;
-  }
-  
-  .upload-file-button {
-    margin-left: 26%;
-    margin-top: 20px;
-    margin-bottom: 100px;
   }
 
   .fa-upload {
