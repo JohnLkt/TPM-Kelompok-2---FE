@@ -95,7 +95,7 @@ button {
 
 .idCard {
     display: flex;
-    justify-content: space-between;
+   
 }
 
 .form-control {
@@ -107,6 +107,9 @@ button {
     border-color: rgb(196, 196, 196);
 }
 
+.IDCard-container {
+    padding-left: 20%;
+}
 
 
 .requirements {
@@ -125,4 +128,47 @@ button {
     color: #fff;
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset;
+  }
+
+  /* UPLOAD FILE BUTTON STYLE */
+
+[type="file"] {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  [type="file"] + label {
+    background-color: rgb(145, 82, 254);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 4rem;
+    line-height: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: background-color 0.3s;
+  }
+  
+  [type="file"] + label:hover {
+      background-color: rgb(145, 82, 254);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset;
+  }
+  
+  .upload-file-button {
+    margin-left: 26%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .fa-upload {
+    padding: 5px;
   }
