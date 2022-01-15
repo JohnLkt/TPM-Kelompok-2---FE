@@ -4,7 +4,6 @@ nav {
 }
 #navbar-logo {
     max-height: 50px;
-    filter: invert(100%);
 }
 .nav-item {
     margin: 0 2vw 0 2vw;

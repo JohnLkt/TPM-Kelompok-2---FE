@@ -12,9 +12,8 @@
 }
 
 .logo {
-    filter: invert(100%);
+    height: 100px;
 }
-
 .headRegisterPage {
     display: flex;
     justify-content: end;

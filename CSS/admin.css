@@ -13,7 +13,6 @@
 }
 #adminlogologin {
   max-height: 50px;
-  filter: invert(100%);
 }
 .admin-logo-bg {
     display: flex;
@@ -54,7 +53,6 @@
 /* post-login */
 #navbar-logo {
     max-height: 50px;
-    filter: invert(100%);
 }
 h2 {
   color: #fff;
